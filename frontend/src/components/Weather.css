@@ -1,0 +1,41 @@
+.weather-card {
+  border: none;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 20px;
+  width: 220px;
+  background-color: rgba(34, 34, 34, 0.85); /* Dark background with opacity */
+  color: #fff; /* White text */
+  text-align: left;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.weather-card h3 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  color: antiquewhite;
+}
+
+/* Hover and click effects */
+.weather-card:hover,
+.weather-card.expanded {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Expanded state */
+.weather-card.expanded {
+  padding: 25px;
+  background-color: rgba(34, 34, 34, 0.95); /* Slightly darker */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}

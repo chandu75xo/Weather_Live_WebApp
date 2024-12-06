@@ -1,0 +1,56 @@
+/* Container for the WelcomePage */
+.welcome-page-container {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #e0f7fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.welcome-page-title {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #00796b;
+}
+
+.welcome-page-description {
+  font-size: 1rem;
+  color: #3c5035;
+  margin-bottom: 30px;
+}
+
+.welcome-page-button {
+  background-color: #00796b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+  outline: none;
+}
+
+.welcome-page-button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
+
+.welcome-page-button:focus {
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
