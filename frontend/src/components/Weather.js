@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./Weather.css";
 
 const Weather = () => {
-  const API_KEY = "cff3cb92d6f50292f547456cb572ec1b";
+  const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
   const cities = [
     "Hyderabad",
     "Vijayawada",
