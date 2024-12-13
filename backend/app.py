@@ -10,9 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
-# Initialize Flask app
+
 app = Flask(__name__)
-CORS(app)  # Enable Cross-Origin Resource Sharing
+CORS(app)  
 
 # Load dataset
 data = pd.read_csv('data/weather_data2.csv')
