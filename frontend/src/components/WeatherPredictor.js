@@ -66,7 +66,7 @@ const WeatherPredictor = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/predict", {
+      const response = await axios.post("https://weather-live-webapp-1.onrender.com/api/predict", {
         features,
       });
 
