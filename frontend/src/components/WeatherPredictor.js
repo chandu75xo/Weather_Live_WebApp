@@ -155,7 +155,7 @@ const WeatherPredictor = () => {
                 Prediction Result
               </h2>
               <p className="predict-card">
-                Predicted Temperature: {prediction} °C <br></br>Model Used:{" "}
+                Predicted Temperature: {prediction} °F <br></br>Model Used:{" "}
                 {modelUsed}
               </p>
 
